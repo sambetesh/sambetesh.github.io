@@ -179,6 +179,15 @@ section {
     color: #f10293;
     line-height:30px;
     text-align: center; }
+  section .disclaim2 {
+    display: block;
+    margin-top:-50px;
+    margin-bottom:50px;
+    font-size: 22px;
+    font-weight: 400;
+    color: #f10293;
+    line-height:30px;
+    text-align: center; }
   section ul.flavors {
     font-size: 0;
     list-style-type: disc;
