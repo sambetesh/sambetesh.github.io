@@ -156,6 +156,12 @@ section {
   section img.product-pic {
     margin: 0 auto 80px auto;
     display: block; }
+  section .vape-promo-container {
+    margin-bottom: 15px; }
+  section img.vape-promo-pic {
+    max-width: 49.5%;
+    display: inline-block;
+    vertical-align: top; }
   section .view-features {
     display: block;
     font-size: 32px;
