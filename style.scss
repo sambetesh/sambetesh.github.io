@@ -183,7 +183,7 @@ section {
 
 			span {
 				font-weight: 800;
-				font-size: 90px;
+				font-size: 87px;
 				color: #f10293;
 			}
 
@@ -247,6 +247,10 @@ section {
 		text-align: center;
 	}
 
+  .disclaim2 {
+    margin:20px 0;
+  }
+
 	ul.flavors {
 		font-size: 0;
 		list-style-type: disc;
@@ -284,11 +288,25 @@ section {
 	}
 }
 
+p.store-hours {
+  text-align: center;
+  color:#f10293;
+  font-size: 18px;
+  margin-top:35px;
+  font-weight: 600;
+
+  line-height: 22px;
+
+  span {
+    font-weight: 400;
+  }
+}
+
 @media screen and (max-width: 880px) {
 
-	img.home-logo {
-		display: none !important;
-	}
+  img.home-logo {
+    max-width: 90px;
+  }
 
 	.home-left,
 	.home-right {
@@ -318,8 +336,25 @@ section {
 			margin: 0 auto !important;
 			display: block !important;
 			text-align: center !important;
+      margin-top: 10px !important;
 		}
+
+    a.button {
+
+    }
+
+    span {
+      display:block;
+      clear:both;
+    }
 	}
+
+  header .header-top a.button {
+    position: absolute;
+    top:5px;
+    right:10px;
+    margin-top:5px;
+  }
 
 	.header-lead {
 		margin: 60px 0 0 0 !important;
@@ -364,46 +399,6 @@ section {
 	}
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
