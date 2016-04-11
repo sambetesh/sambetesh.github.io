@@ -34,7 +34,17 @@ a.button-home {
   
 a.button-home2 {
   position: absolute;
-  margin-right: 24px;
+  right: 250px;
+  background-color: #6CE06C;
+  padding: 20px;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 4px;
+  margin: 26px 0 0 0; }
+  
+  a.button-home3 {
+  position: absolute;
+  right: 350px;
   background-color: #6CE06C;
   padding: 20px;
   color: #fff;
