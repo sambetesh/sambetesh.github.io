@@ -34,7 +34,7 @@ a.button-home {
   
 a.button-home2 {
   position: absolute;
-  right: 250px;
+  margin-right: 24px;
   background-color: #6CE06C;
   padding: 20px;
   color: #fff;
