@@ -22,35 +22,30 @@ img.home-logo {
   display: block;
   max-width: 180px; }
 
+.home-buttons {
+  position: absolute;
+  right:0;
+  top:26px;
+}
+
+.home-buttons a {
+  display:inline-block;
+  padding:20px;
+  color:#fff;
+  font-weight: bold;
+  border-radius: 4px;
+  margin-right:15px;
+}
+
 a.button-home {
-  position: absolute;
-  right: 40px;
+
   background-color: #ff0088;
-  padding: 20px;
-  color: #fff;
-  font-weight: bold;
-  border-radius: 4px;
-  margin: 26px 0 0 0; }
-  
-a.button-home2 {
-  position: absolute;
-  right: 250px;
+  }
+
+a.button-home2, a.button-home3 {
   background-color: #6CE06C;
-  padding: 20px;
-  color: #fff;
-  font-weight: bold;
-  border-radius: 4px;
-  margin: 26px 0 0 0; }
-  
-  a.button-home3 {
-  position: absolute;
-  right: 436px;
-  background-color: #6CE06C;
-  padding: 20px;
-  color: #fff;
-  font-weight: bold;
-  border-radius: 4px;
-  margin: 26px 0 0 0; }
+  }
+
 
 .home {
   font-size: 0;
@@ -262,6 +257,20 @@ p.store-hours {
     font-weight: 400; }
 
 @media screen and (max-width: 880px) {
+
+  .home-buttons a:last-child {
+    margin-right:5px;
+  }
+
+  .home-buttons a {
+    float:right;
+    margin-bottom: 5px;
+  }
+
+  .home-buttons {
+    max-width: 75%;
+  }
+
   img.home-logo {
     max-width: 90px; }
 
