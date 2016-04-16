@@ -258,13 +258,10 @@ p.store-hours {
 
 @media screen and (max-width: 880px) {
 
-  .home-buttons a:last-child {
-    margin-right:5px;
-  }
-
   .home-buttons a {
     float:right;
     margin-bottom: 5px;
+    margin-right: 5px;
   }
 
   .home-buttons {
